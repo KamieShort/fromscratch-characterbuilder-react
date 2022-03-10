@@ -5,7 +5,7 @@ export default function Controls({ setHead, setMiddle, setBottom }) {
   return (
     <div className="controls">
       <label>
-        Choose a head:
+        Choose a Head:
         <select
           onChange={(e) => {
             setHead(e.target.value);
@@ -43,7 +43,7 @@ export default function Controls({ setHead, setMiddle, setBottom }) {
         </select>
       </label>
       <label>
-        Write your own catchprase:
+        Write your own Catchprase:
         <input id="catchphrase-input" />
         <button id="catchphrase-button">Add</button>
       </label>

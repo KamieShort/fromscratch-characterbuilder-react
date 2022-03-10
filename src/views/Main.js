@@ -12,7 +12,7 @@ import Head from '../components/Head/Head';
 import background from '../background.jpg';
 
 export default function Main() {
-  const [head, setHead] = useState('dog');
+  const [head, setHead] = useState('head');
   const [middle, setMiddle] = useState('middle');
   const [bottom, setBottom] = useState('bottom');
   const [catchphrase, setCatchprase] = useState('');
