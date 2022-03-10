@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Controls from '../components/Controls';
+import Controls from '../components/Controls/Controls';
 // import Head from '../components/Head/Head';
 // import Middle from '../components/Middle/Middle';
 // import Bottom from '../components/Bottom/Bottom';
