@@ -9,6 +9,8 @@ import Controls from '../components/Controls/Controls';
 
 // import Footer from '../components/Footer/Footer';
 
+import background from '../background.jpg';
+
 export default function Main() {
   const [head, setHead] = useState('head');
   const [middle, setMiddle] = useState('middle');
@@ -16,12 +18,14 @@ export default function Main() {
   const [catchphrase, setCatchprase] = useState('');
 
   return (
-    <div>
-      <Controls setHead={setHead} setMiddle={setMiddle} setBottom={setBottom} />
-      {/* <Head head={head} />
+    <main className="main" style={{ backgroundImage: `url(${background})` }}>
+      <div>
+        <Controls setHead={setHead} setMiddle={setMiddle} setBottom={setBottom} />
+        {/* <Head head={head} />
       <Middle middle={middle} />
       <Bottom bottom={bottom} /> */}
-      {/* <Catchprase catchphrase={catchphrase} setCatchprase={setCatchprase} /> */}
-    </div>
+        {/* <Catchprase catchphrase={catchphrase} setCatchprase={setCatchprase} /> */}
+      </div>
+    </main>
   );
 }
