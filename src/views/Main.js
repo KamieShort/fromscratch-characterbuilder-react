@@ -3,7 +3,7 @@ import './Main.css';
 
 import Controls from '../components/Controls/Controls';
 import Head from '../components/Head/Head';
-// import Middle from '../components/Middle/Middle';
+import Middle from '../components/Middle/Middle';
 // import Bottom from '../components/Bottom/Bottom';
 // import Catchprase from '../components/Catchphrase/Catchphrase';
 
@@ -22,7 +22,7 @@ export default function Main() {
       <div>
         <Controls setHead={setHead} setMiddle={setMiddle} setBottom={setBottom} />
         <Head head={head} />
-        {/* <Middle middle={middle} /> */}
+        <Middle middle={middle} />
         {/* <Bottom bottom={bottom} /> */}
         {/* <Catchprase catchphrase={catchphrase} setCatchprase={setCatchprase} /> */}
       </div>

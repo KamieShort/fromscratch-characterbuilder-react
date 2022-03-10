@@ -8,12 +8,9 @@ export default function Head(props) {
     <div className={classes}>
       {props.head}
       <img
-        style={{ height: '100px' }}
+        style={{ height: '150px' }}
         src={`${process.env.PUBLIC_URL}/assets/head-${props.head}.png`}
       />
     </div>
-    // <div className="head">
-    //   <img alt={props.name} src={`${process.env.PUBLIC_URL}/assets/Headimages${props.name}.png`} />
-    // </div>
   );
 }
