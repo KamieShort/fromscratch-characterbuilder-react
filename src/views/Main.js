@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 
 import Controls from '../components/Controls';
-import Head from '../components/Head/Head';
-import Middle from '../components/Middle/Middle';
-import Bottom from '../components/Bottom/Bottom';
-import Catchprase from '../components/Catchphrase/Catchphrase';
+// import Head from '../components/Head/Head';
+// import Middle from '../components/Middle/Middle';
+// import Bottom from '../components/Bottom/Bottom';
+// import Catchprase from '../components/Catchphrase/Catchphrase';
 
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+// import Footer from '../components/Footer/Footer';
 
 export default function Main() {
   const [head, setHead] = useState('head');
@@ -18,10 +17,10 @@ export default function Main() {
   return (
     <div>
       <Controls setHead={setHead} setMiddle={setMiddle} setBottom={setBottom} />
-      <Head head={head} />
+      {/* <Head head={head} />
       <Middle middle={middle} />
-      <Bottom bottom={bottom} />
-      <Catchprase catchphrase={catchphrase} setCatchprase={setCatchprase} />
+      <Bottom bottom={bottom} /> */}
+      {/* <Catchprase catchphrase={catchphrase} setCatchprase={setCatchprase} /> */}
     </div>
   );
 }
