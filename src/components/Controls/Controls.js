@@ -1,10 +1,11 @@
 import React from 'react';
+import './Controls.css';
 
 export default function Controls({ setHead, setMiddle, setBottom }) {
   return (
     <div className="controls">
       <label>
-        Choose a head
+        Choose a head:
         <select
           onChange={(e) => {
             setHead(e.target.value);
@@ -42,7 +43,7 @@ export default function Controls({ setHead, setMiddle, setBottom }) {
         </select>
       </label>
       <label>
-        Write your own catchprase
+        Write your own catchprase:
         <input id="catchphrase-input" />
         <button id="catchphrase-button">Add</button>
       </label>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Main.css';
 
 import Controls from '../components/Controls/Controls';
 // import Head from '../components/Head/Head';
