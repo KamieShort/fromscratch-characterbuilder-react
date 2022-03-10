@@ -8,7 +8,7 @@ export default function Head(props) {
     <div className={classes}>
       {props.head}
       <img
-        style={{ height: '150px' }}
+        style={{ height: '155px' }}
         src={`${process.env.PUBLIC_URL}/assets/head-${props.head}.png`}
       />
     </div>

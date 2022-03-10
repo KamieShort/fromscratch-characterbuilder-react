@@ -8,7 +8,7 @@ export default function Middle(props) {
     <div className={classes}>
       {props.middle}
       <img
-        style={{ height: '150px' }}
+        style={{ height: '155px' }}
         src={`${process.env.PUBLIC_URL}/assets/middle-${props.middle}.png`}
       />
     </div>

@@ -38,14 +38,21 @@ export default function Controls({ setHead, setMiddle, setBottom }) {
           }}
         >
           <option value="leg">Single Leg</option>
-          <option value="white">White Pants</option>
-          <option value="blue">Blue Jeans</option>
+          <option value="pants">White Pants</option>
+          <option value="jeans">Blue Jeans</option>
         </select>
       </label>
       <label>
-        Write your own Catchprase:
+        Write your own Catchphrase:
         <input id="catchphrase-input" />
-        <button id="catchphrase-button">Add</button>
+        {/* <button
+          id="catchphrase-button"
+          // onClick={() => {
+          //   setCatchphrase('');
+          // }}
+        >
+          Add
+        </button> */}
       </label>
     </div>
   );
