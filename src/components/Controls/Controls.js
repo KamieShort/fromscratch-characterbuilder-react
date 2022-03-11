@@ -1,7 +1,7 @@
 import React from 'react';
 import './Controls.css';
 
-export default function Controls({ setHead, setMiddle, setBottom, setCatchphrase }) {
+export default function Controls({ setHead, setMiddle, setBottom }) {
   return (
     <div className="controls">
       <label>
