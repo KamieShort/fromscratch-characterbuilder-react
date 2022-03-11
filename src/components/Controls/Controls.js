@@ -1,7 +1,7 @@
 import React from 'react';
 import './Controls.css';
 
-export default function Controls({ setHead, setMiddle, setBottom }) {
+export default function Controls({ setHead, setMiddle, setBottom, setCatchphrase }) {
   return (
     <div className="controls">
       <label>
@@ -41,18 +41,6 @@ export default function Controls({ setHead, setMiddle, setBottom }) {
           <option value="pants">White Pants</option>
           <option value="jeans">Blue Jeans</option>
         </select>
-      </label>
-      <label>
-        Write your own Catchphrase:
-        <input id="catchphrase-input" />
-        {/* <button
-          id="catchphrase-button"
-          // onClick={() => {
-          //   setCatchphrase('');
-          // }}
-        >
-          Add
-        </button> */}
       </label>
     </div>
   );

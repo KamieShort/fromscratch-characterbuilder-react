@@ -10,10 +10,10 @@ import Catchphrase from '../components/Catchphrase/Catchphrase';
 import background from '../background.jpg';
 
 export default function Main() {
-  const [head, setHead] = useState('head');
-  const [middle, setMiddle] = useState('middle');
-  const [bottom, setBottom] = useState('bottom');
-  const [catchphrases, setCatchphrases] = useState(['Hello']);
+  const [head, setHead] = useState('bird');
+  const [middle, setMiddle] = useState('dress');
+  const [bottom, setBottom] = useState('leg');
+  const [catchphrases, setCatchphrases] = useState([]);
   const [catchphrase, setCatchphrase] = useState('');
 
   return (
