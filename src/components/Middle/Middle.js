@@ -6,7 +6,6 @@ export default function Middle(props) {
   const classes = `${props.middle}`;
   return (
     <div className={classes}>
-      {props.middle}
       <img
         style={{ height: '155px' }}
         src={`${process.env.PUBLIC_URL}/assets/middle-${props.middle}.png`}
