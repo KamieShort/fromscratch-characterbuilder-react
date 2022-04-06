@@ -1,0 +1,13 @@
+.main {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  font-weight: 600;
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  height: 94vh;
+  margin-bottom: 0;
+}
